@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+// EXAMPLE IN CLASS OF RESPONSIVE AND ADAPTIVE MEDIA QUERY//
+
+// .example {
+//   width: 70%;
+//   min-height: 800px;
+//   background-color: aqua;
+//   margin: 0 auto;
+
+//   .box {
+//     width: 50%;
+//     height: 100px;
+//     background-color: blue;
+//     margin: 0 auto;
+//   }
+//   .media-box {
+//     width: 600px;
+//     height: 100px;
+//     background-color: purple;
+//     margin: 0 auto;
+//   }
+// }
+
+// @media screen and (max-width: 1000px) and (min-width: 800px) {
+//   .example {
+//     background-color: black;
+//   }
+// }
+
+// @media all and (max-width: 600px) {
+//   .example {
+//     .media-box {
+//       width: 300px;
+//     }
+//   }
+// }
+
+// change flex to collum for homework-four//

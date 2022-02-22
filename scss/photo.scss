@@ -1,0 +1,31 @@
+.photos {
+  // if we tell iy to go smaller it will with max-width//
+  max-width: 940px;
+  min-height: 300px;
+  background-color: plum;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  .photo {
+    width: 300px;
+    img {
+      display: block;
+    }
+    p {
+      font-size: 11px;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .photos {
+    min-height: 940px;
+    flex-direction: column;
+    width: 300px;
+
+    .photo {
+    }
+  }
+}
